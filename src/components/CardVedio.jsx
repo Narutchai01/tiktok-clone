@@ -8,7 +8,7 @@ const CardVedio = (props) => {
 
     return (
         <>
-            <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll overflow-x-hidden">
+            <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll overflow-x-hidden no-scrollbar">
                 {
                     videos.map((item, index) => (
                         <div className="bg-black snap-center snap-normal px-[650px] relative" key={index}>
